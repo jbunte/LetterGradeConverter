@@ -13,7 +13,7 @@ public class LetterGradeConverter {
 		System.out.print("Enter numerical grade: ");
 		int numberGrade = sc.nextInt();
 		if (numberGrade > 87)
-			letterGrade = "A";
+			letterGrade = "A+";
 		else if (numberGrade >= 80 && numberGrade <= 87)
 			letterGrade = "B";
 		else if (numberGrade >= 67 && numberGrade <= 79)
